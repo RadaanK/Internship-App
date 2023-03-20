@@ -1,0 +1,21 @@
+.searchBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4cm;
+}
+.box {
+    text-align: left;
+    border: black ridge 1px;
+    border-radius: 10px;
+    margin: 3px;
+    width: 20rem;
+    padding-left: 10px;
+  }
+
+.input{
+    height: 35px;
+    width: 50%;
+    border-radius: 25px;
+}

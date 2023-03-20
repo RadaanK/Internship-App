@@ -1,0 +1,109 @@
+
+
+.form{
+    
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 30px;
+    font-family: 'Helvetica', sans-serif;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+    /* height: 600px; */
+}
+ 
+.form h1 {
+    padding: 15px 25px 0 25px;
+    font-weight: 300;
+}
+.form-body{
+    text-align: center;
+    padding: 35px;
+    
+}
+
+.form-body > *{
+    padding: 10 px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form input{
+    padding: 12px 5px;
+    font-size: 16px;
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.form input::-webkit-input-placeholder {
+    text-transform: uppercase;
+  }
+  .form input::-moz-placeholder {
+    text-transform: uppercase;
+  }
+  .form input:-ms-input-placeholder {
+    text-transform: uppercase;
+  }
+  .form input::-ms-input-placeholder {
+    text-transform: uppercase;
+  }
+  .form input::placeholder {
+    text-transform: uppercase;
+  }
+  .form input:focus {
+    border-color: #222;
+  }
+
+.footer{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+}
+
+.form button {
+    width: 100%;
+    border: none;
+    padding: 18px;
+    font-family: 'Helvetica', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #2d3b55;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.form button:hover {
+    background: #3c4d6d;
+  }
+
+.form .form-body .role {
+    display: -webkit-box;
+    display: flex;
+    padding: 10px 1px;
+    border: 0;
+    width: 70%;
+
+
+}
